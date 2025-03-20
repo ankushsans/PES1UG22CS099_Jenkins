@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'random' 
+                sh './my_program' 
                 echo 'Test Stage Successful'
             }
         }
